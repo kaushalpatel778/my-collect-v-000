@@ -2,7 +2,7 @@ def my_collect (collection)
   i=0
   Arrnew = []
   while i < collection.length
-    Arrnew = <<yield (collection[i])
+    Arrnew << yield (collection[i])
     i += 1
   end
   Arrnew
